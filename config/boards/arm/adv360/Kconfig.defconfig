@@ -8,6 +8,19 @@ if BOARD_ADV360_LEFT
 	config ZMK_KEYBOARD_NAME
 	default "Adv360 Pro"
 
+	config BT_PERIPHERAL_PREF_LATENCY
+	default 30
+
+	config BT_PERIPHERAL_PREF_MAX_INT
+	default 24
+
+	config BT_PERIPHERAL_PREF_MIN_INT
+	default 12
+
+	config BT_PERIPHERAL_PREF_TIMEOUT
+	default 600
+
+
 endif # BOARD_ADV360_LEFT
 
 if BOARD_ADV360_RIGHT
